@@ -1,0 +1,271 @@
+@import './fontSize.styl'
+@import "../node_modules/stylus-px2rem"
+html
+	background #eee
+body 
+	width 720px
+	margin 0 auto 
+	.g-head
+		position: relative;
+		width 720px 
+		height 112px
+		line-height 112px
+		text-align center
+		background #60cbb7 url('../imgs/head.png') 100% 100% no-repeat
+		background-size 100%
+		.u-back
+			position: absolute;
+			top 36px
+			left 34px              
+			display inline-block
+			width 21px
+			height 40px
+			background url('../imgs/left.png') no-repeat                	
+			background-size cover
+		.title
+			font-size 36px
+			color #fefefe
+		.u-search
+			position: absolute;
+			top 36px
+			right 30px 
+			display inline-block
+			width 40px
+			height 40px
+			background url('../imgs/search.png') no-repeat
+			background-size cover                               	
+	.g-ad
+		width 720px
+		height 268px
+		overflow hidden
+		.ad-img
+			width 720px
+			height 268px
+	.g-main
+		width 720px
+		padding 27px 35px 8px
+		background #f4f7fc 
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		.m-items
+			display flex
+			font-size 0
+			margin-bottom 16px
+			.u-item
+				flex 1
+				text-align center
+				.item-img
+					width 118px  
+					height 118px  
+				.item-text
+					display block
+					font-size 22px
+					color #666
+					
+	.g-adbox
+		margin-top 20px
+		background #f4f7fc
+		width 720px
+		height 348px
+		overflow hidden
+		.m-left
+			display inline-block
+			width 275px
+			height 289px
+			margin-top 28px
+			margin-left 31px
+			background #fff
+			border-radius 10px
+			overflow hidden
+			.adbox-text
+				padding 0 20px 0 20px
+				text-align center
+				white-space nowrap
+				// text-overflow ellipsis
+				// overflow hidden
+				margin-top 40px
+				.adbox-title
+					display block					
+				    font-size 26px
+					color #333
+				.adbox-des
+					display inline-block
+					margin-top 8px
+					font-size 22px
+					color #4ed5bc
+			.adbox-img
+				display block
+				width 135px
+				height 136px
+				margin-top 24px
+				margin-left 70px
+			.adbox-title, .adbox-des
+				white-space nowrap				    
+				overflow hidden
+				text-overflow ellipsis
+		.m-right1, .m-right2
+			display inline-block
+			position:absolute;
+			width 373px
+			height 139px
+			background #fff
+			border-radius 10px
+			overflow hidden
+			margin-left 12px
+			margin-top 28px
+			.adbox-text
+				vertical-align top
+				display inline-block
+				margin-top 23px
+				margin-left 21px
+				width 207px				
+				overflow hidden
+				.adbox-title
+					display block
+					width 100%
+					font-size 26px
+					color #333
+				.adbox-des
+					display inline-block
+					margin-top 8px
+					font-size 22px
+					color #4ed5bc
+			.adbox-img
+				display inline-block
+				width 113px
+				height 113px
+				margin-top 13px
+			.adbox-title, .adbox-des
+				white-space nowrap				    
+				overflow hidden
+				text-overflow ellipsis
+		.m-right2
+			margin-top 179px       
+	.g-content
+		width 720px
+		margin-top 20px
+		.cont-item
+			width 720px
+			background #f4f7fc
+			padding-bottom 30px
+			margin-bottom 20px
+			.cont-head
+				position: relative;
+				width 720px
+				height 96px
+				// line-height 96px
+				.head-icon
+					position: absolute
+					top 36px
+					left 32px
+					display inline-block
+					width 12px
+					height 26px
+					background #23b69a
+				.head-title
+					position: absolute;
+					height 27px
+					line-height 27px
+					top 36px
+					left 59px
+					font-size 28px
+					color #333
+					margin-left 15px
+				.head-more
+					position: absolute;
+					height 21px
+					line-height 21px
+					top 41px
+					right 51px
+					font-size 22px
+					color #999
+					padding-right 20px
+					background url('../imgs/more.png') 100% no-repeat
+					background-size auto 100%			              
+			.cont-main
+				width 720px
+				display flex
+				padding 0 20px
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				.cont-list
+					height 233px
+					flex 1
+					text-align center
+					font-size 0
+					margin-left 9px
+					margin-right 9px
+					background #fff
+					border-radius 10px
+					.cont-img
+						display block
+						width 208px
+						height 144px
+					.cont-name
+						display inline-block
+						width 200px
+						margin-top 16px
+						font-size 22px
+						color #333 
+						white-space nowrap
+						text-overflow ellipsis
+						overflow hidden
+					.cont-pay
+						margin-top 10px
+						float left
+						font-size 22px
+						color #23b69a
+						.pay-n
+							font-size 18px
+					.cont-dis
+						margin-top 10px
+						float right
+						font-size 18px
+						color #999
+						margin-right 4px
+	.g-foot
+		width 720px
+		background #f4f7fc
+		.foot-head
+			width 720px
+			height 105px
+			text-align center		
+			.head-text
+				display inline-block
+				height 29px
+				line-height 29px
+				margin-top 41px
+				padding-left 40px
+				font-size 28px
+				background url('../imgs/text.png') 0 no-repeat
+				background-size auto 100%
+		.foot-main
+			width 720px
+			padding 0 35px
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			.foot-items
+				display flex
+				font-size 0
+				.foot-item
+					flex 1
+					text-align center
+					.foot-img
+						width 109px
+						height 109px
+					.foot-text
+						width 194px
+						margin 10px auto 38px
+						display block
+						font-size 24px
+						color #333
+						margin-top 10px
+						white-space nowrap
+						text-overflow ellipsis
+						overflow hidden
+
+			
+		
