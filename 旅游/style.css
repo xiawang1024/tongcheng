@@ -1,0 +1,832 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0; 
+	padding:0; 
+	color:#333;
+}
+	
+body{
+	font-family:"微软雅黑";
+	font-size:14px;
+	background:#fff;
+	max-width:640px;
+    margin: 0 auto;
+	overflow:inherit;
+}
+	
+a{ text-decoration:none;}
+
+ul li{
+	 list-style:none;
+   }
+	 
+img{ border:0;}
+
+
+.top{
+	background:#0893e4;
+    position: relative;
+	padding-top:100px;
+	
+	}
+.top .next{
+    position: absolute;
+    width: 96%;
+    top: 25%;
+    left: 2%;
+	background:url(images/3566.png) no-repeat;
+	display: block;
+    height: 40px;
+ }
+.top span{
+    position: absolute;
+    width: 96%;
+    top: 2%;
+    left: 2%;
+	color:#fff;
+	font-size:30px;
+	text-indent:10px;
+	line-height:80px;
+	text-align:center;
+	letter-spacing:10px;
+ }
+
+.top .search{
+    position: absolute;
+    width: 6%;
+    top: 25%;
+    left: 92%;
+	background:url(images/search.png) no-repeat;
+	display:block;
+	height:40px;
+	
+ }
+
+.banner{
+	overflow:hidden;
+	}	 
+.banner img{
+	width:100%;
+	vertical-align: top; 
+}
+
+.tb {
+  padding-top: 10px;
+  clear: both;
+  background:#e6efff;
+  overflow:hidden;
+  padding-bottom:10px;
+}
+
+.tb ul {
+  margin: 0 auto;
+  display: none;
+  overflow:hidden;
+}
+.tb ul li {
+  width: 25%;
+  margin-bottom: 15px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+}
+.tb ul li a{
+	display:block;
+}
+.tb ul li img {
+  vertical-align: top;
+  width:80%;
+}
+.tb ul li .title {
+  display: block;
+  margin: 5px auto;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  color: #333;
+}
+
+.tb ul.selected {
+  display: block;
+}
+.tb ul li .title:hover {
+	text-decoration:underline;
+}
+.ly_yh{ 
+  margin:0 auto; 
+  overflow:hidden;
+  background:#fff; 
+  margin: 5px;
+  border-radius:7px;
+  padding: 10px 10px 5px 10px;
+}
+.ly_yh .left{ 
+	width: 41%; 
+	float:left; 
+	position: relative; 
+}
+.ly_yh .left img{ 
+	width:100%; 
+	vertical-align: top; 
+}
+.ly_yh .left a:before{
+  background-color: #333;
+  opacity: 0.5;
+  position: absolute;
+  width: 100%; height: 100%;
+  left: 0;
+}
+.ly_yh .left a{
+  height: 30px; line-height: 30px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 10px 10px;
+  font-size: 16px;
+  text-indent:20px;
+}
+.ly_yh .left a span{
+  position: relative;
+  z-index: 100;
+  color: #fff;
+  padding-left: 5px;
+}
+.ly_yh .right{
+    margin-left: 43%; 
+}
+.ly_yh .right div{
+  position: relative;
+  margin-bottom:6px;
+}
+.ly_yh .right img{ 
+  width: 100%;
+  vertical-align: top
+}
+.ly_yh .right a:before{
+  content: '';
+  background-color: #333;
+  opacity: 0.5;
+  position: absolute;
+  width: 100%; height: 100%;
+  left: 0;
+  
+}
+.ly_yh .right a{
+  height: 30px; line-height: 30px;
+  position: absolute;
+  width: 100%;
+  left: 0; bottom: 0;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  font-size: 16px;
+  text-indent:20px;
+}
+.ly_yh .right a span{
+  position: relative;
+  z-index: 100;
+  color: #fff;
+  padding-left: 5px;
+}
+
+
+	
+/*酒店预订*/	
+  .jdyd{
+    position: relative;
+  }
+  .jdyd .title{
+    position: absolute;
+    width: 96%;
+    top: 2%;
+    left: 2%;
+	color:#fff;
+	font-size:20px;
+	text-indent:10px;
+	font-weight:bold;
+	line-height:25px; 
+	  }
+  .jdyd .title span{
+	  color:#fff;
+	  font-size:16px;
+	  text-indent: 95px;
+	  display: block;
+	  margin-top: -20px;
+	  font-weight:bold;
+	  line-height:25px;
+	  }
+ .jdyd .title a{
+	  position: absolute;
+      width: 6%;
+      top: 5%;
+      left: 96%;
+	  background:url(images/fh.png) no-repeat;
+	  display:block;
+	  height:20px;
+	  float:right;
+ 
+	  }	  	 
+  .jdyd .left{
+    position: absolute;
+    width: 96%;
+    top: 25%;
+    left: 2%;
+	}
+  .jdyd .zzBg{
+    width: 100%;
+	vertical-align: top;
+  }
+  .jdyd .firLi{
+    width: 33.3%;
+    float: left;
+  }
+  .jdyd .firLi p{
+	display:block;
+	line-height:35px;
+	font-size:18px;
+	padding-bottom:5px;
+	margin-top:10px;
+  }
+  .jdyd .firLi a{
+    display: block;
+    padding: 5px;
+    margin: 2px;
+    background-color: #fff;
+  }
+  .jdyd .firLi img{
+    width: 100%;
+  }
+  .jdyd .firLi .firH2{
+    display: block;
+    font-size: 15px;
+    line-height: 35px;
+    height: 35px; 
+	overflow: hidden;
+    font-weight: normal;
+  }
+  .jdyd .firLi span{
+    font-size: 15px;
+	color:#999;
+  }
+  .jdyd .firLi em{
+    color: #ff1874;
+    font-style: normal;
+    font-weight: bold;
+  }
+  .jdyd .firLi em small{
+    color: #ff1874;
+    font-weight: normal;
+	
+  }
+  .jdyd .firLi button{
+    border: 0;
+    border-radius: 10px;
+    background: #ff1874;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    float: right;
+    margin-right: 5px;
+    padding:1px 15px;
+	margin-top:8px;
+  }
+.jdyd .right{
+	text-align:center;
+	margin-top: -5px;
+	}
+
+.jdyd .right h2{
+	color:#fff;
+	font-weight:normal;
+	line-height:25px;
+	font-size:16px;
+	}
+
+.jdyd .right span{
+	color:#fff;
+	font-weight:normal;
+	line-height:25px;
+	}
+	
+	
+/*景点推荐*/	
+  .tj{
+    position: relative;
+	
+  }
+  
+    .tj .title{
+    position: absolute;
+    width: 96%;
+    top: 2%;
+    left: 2%;
+	color:#fff;
+	font-size:20px;
+	text-indent:10px;
+	font-weight:bold;
+	line-height:25px; 
+	  }
+  .tj .title span{
+	  color:#fff;
+	  font-size:16px;
+	  text-indent: 95px;
+	  display: block;
+	  margin-top: -20px;
+	  font-weight:bold;
+	  line-height:25px;
+	  }
+ .tj .title a{
+	  position: absolute;
+      width: 6%;
+      top: 5%;
+      left: 96%;
+	  background:url(images/fh.png) no-repeat;
+	  display:block;
+	  height:20px;
+	  float:right;
+ 
+	  }	
+  
+  .tj .left{
+    position: absolute;
+    width: 96%;
+    top: 24%;
+    left: 3%;
+	}
+  .tj .zzBg{
+    width: 100%;
+	vertical-align: top;
+  }
+  .tj .firLi{
+    width: 33.3%;
+    float: left;
+  }
+   .tj .firLi p{
+	display: block;
+    line-height: 35px;
+    font-size: 18px;
+    padding-bottom: 5px;
+    margin-top: 16px;
+  }
+  .tj .firLi a{
+    display: block;
+    padding: 5px;
+    margin: 2px;
+    background-color: #fff;
+  }
+  .tj .firLi img{
+    width: 100%;
+  }
+  .tj .firLi h2{
+    display: block;
+    font-size: 15px;
+    line-height: 35px;
+    height: 35px; 
+	overflow: hidden;
+    font-weight: normal;
+  }
+  .tj .firLi .secSpan{
+    font-size: 15px;
+	color:#999;
+  }
+  .tj .firLi em{
+    color: #ff1874;
+    font-style: normal;
+    font-weight: bold;
+  }
+  .tj .firLi em small{
+    color: #ff1874;
+    font-weight: normal;
+  }
+  .tj .firLi button{
+    border: 0;
+    border-radius: 10px;
+    background: #ff1874;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    float: right;
+    margin-right: 5px;
+    padding: 1px 15px;
+    margin-top: 8px;
+  }
+.tj .right{
+	text-align:center;
+	margin-top:-3px;
+	}
+
+.tj .right h2{
+	color:#fff;
+	font-weight:normal;
+	line-height:25px;
+	font-size:16px;
+	}
+
+.tj .right span{
+	color:#fff;
+	font-weight:normal;
+	line-height: 10px;
+    display: block;
+	}
+	
+	
+	
+/*一日游*/	
+  .yry{
+    position: relative;
+	
+  }
+  
+   .yry .title{
+    position: absolute;
+    width: 96%;
+    top: 2%;
+    left: 2%;
+	color:#fff;
+	font-size:20px;
+	text-indent:10px;
+	font-weight:bold;
+	line-height:25px; 
+	  }
+  .yry .title span{
+	  color:#fff;
+	  font-size:16px;
+	  text-indent: 75px;
+	  display: block;
+	  margin-top: -20px;
+	  font-weight:bold;
+	  line-height:25px;
+	  }
+ .yry .title a{
+	  position: absolute;
+      width: 6%;
+      top: 5%;
+      left: 96%;
+	  background:url(images/fh.png) no-repeat;
+	  display:block;
+	  height:20px;
+	  float:right;
+ 
+	  }	
+  
+  .yry .left{
+    position: absolute;
+    width: 96%;
+    top: 25%;
+    left: 2%;
+	}
+  .yry .zzBg{
+    width: 100%;
+	vertical-align:top;
+  }
+  .yry .firLi{
+    width: 33.3%;
+    float: left;
+  }
+  .yry .firLi a{
+    display: block;
+    padding: 5px;
+    margin: 2px;
+    background-color: #fff;
+  }
+  .yry .firLi img{
+    width: 100%;
+  }
+ .yry .firLi .thiH2 {
+		display: block;
+		font-size: 15px;
+		line-height: 35px;
+		height: 35px;
+		overflow: hidden;
+		font-weight: normal;
+    }
+	.yry .firLi .thiSpan {
+		font-size: 15px;
+		color: #999;
+	}
+	.yry .firLi p{
+	display: block;
+    line-height: 33px;
+    font-size: 18px;
+    margin-top: 16px;
+  }
+  .yry .firLi em{
+    color: #ff1874;
+    font-style: normal;
+    font-weight: bold;
+  }
+  .yry .firLi em small{
+    color: #ff1874;
+    font-weight: normal;
+  }
+  .yry .firLi button{
+    border: 0;
+    border-radius: 10px;
+    background: #ff1874;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    float: right;
+    margin-right: 5px;
+    padding: 1px 15px;
+    margin-top: 6px;
+  }
+.yry .right{
+	text-align:center;
+    margin-top: -5px;
+	}
+
+.yry .right h2{
+	color:#fff;
+	font-weight:normal;
+	line-height:25px;
+	font-size: 16px;
+	}
+
+.yry .right span{
+	color:#fff;
+	font-weight:normal;
+	line-height:25px;
+	display:block;
+	}
+	
+	
+	
+/*为您优选*/	
+.yx{
+	position:relative;
+  
+}
+.yx img{
+	width:100%;
+	vertical-align:top;
+  
+}
+.yx ul{ 
+    width:100%;
+   	position:absolute;
+	top:95%;
+	left:0%;
+	background:#f7faff;
+	padding-bottom: 20px;
+}
+.yx ul li{
+	float:left;
+	width:33.3%; 
+}
+.yx ul li a{
+	display:block;
+	line-height:30px;
+	text-align:center;
+	margin:15px 10px;
+  
+}
+.yx ul li a:hover{
+	text-decoration:underline;
+  
+}
+.yx ul li a img{
+	width:65%;
+  
+}
+.yx ul li span{
+	text-align:center;
+	display:block;
+	font-size: 16px;
+    font-weight: bold;
+  
+}
+  
+  @media screen and (max-width: 435px) {  
+  .top{
+	padding-top:60px;
+	
+	}
+  .top .next{
+   background-size: 12px;
+ }
+  .top span{
+	font-size:18px;
+	margin-top:-15px;
+ }
+
+  .top .search{
+   background-size: 20px;	
+ }
+    
+  .jdyd .right h2{
+	font-size:12px;
+	line-height:15px;
+	
+	}
+
+  .jdyd .right span{
+    font-size:12px;
+	line-height:15px;
+	}
+  .jdyd .firLi p{
+	line-height:10px;
+	font-size:12px;
+
+  }
+  .jdyd .firLi .firH2{
+    font-size: 12px;
+    line-height: 15px; 
+
+  }
+  .jdyd .firLi span{
+    font-size: 12px;
+	line-height:15px;
+	display: block;
+  }
+  .jdyd .firLi button{
+    padding: 0px 5px;
+    margin-top: -5px;
+    font-size: 12px;
+	
+  }	
+ /*景点推荐*/ 
+  .tj .right h2{
+	font-size:12px;
+	line-height:20px;
+	
+	}
+
+  .tj .right span{
+    font-size:12px;
+	margin-top: -13px;
+	}
+
+  .tj .firLi .firH2{
+    font-size: 12px;
+    line-height: 15px; 
+
+  }
+	.tj .firLi .secSpan{
+		font-size: 12px;
+		margin-top: -15px;
+		display: block;
+  }
+  .tj .firLi p {
+    line-height: 13px;
+    font-size: 12px;
+  }
+  .tj .firLi button{
+    padding: 0px 5px;
+    margin-top:-4px;
+    font-size: 12px;
+	
+  }
+  
+  /*一日游*/
+	.yry .firLi .thiH2 {
+		 font-size: 12px;
+         line-height: 15px; 
+    }
+	.yry .firLi .thiSpan {
+		font-size: 12px;
+		margin-top: -15px;
+		display: block;
+	}
+
+	  .yry .firLi p {
+		line-height: 14px;
+		font-size: 12px;
+	  }
+	  .yry .firLi button{
+		padding: 0px 5px;
+		margin-top:-4px;
+		font-size: 12px;
+		
+	  }
+  
+  
+   .yry .right h2{
+	font-size:12px;
+	line-height:20px;
+	
+	}
+
+   .yry .right span{
+    font-size:12px;
+	margin-top: -6px;
+	}
+	
+  /*优选*/
+	.ly_yh .left a {
+		font-size: 12px;
+		line-height:30px;
+	}	
+	.ly_yh .right a {
+		line-height: 30px;
+		font-size: 12px;
+	}
+	.yx ul li span{
+	  font-size: 12px;  
+   }
+   
+   .tb ul li .title {
+    font-size: 12px;
+
+}
+
+ .jdyd .title{
+	font-size:14px;
+	line-height:15px;
+
+	  }
+  .jdyd .title span{
+	font-size:12px;
+	line-height:32px;
+	text-indent:68px;
+	  }
+  .jdyd .title a{
+	  background-size:7px;
+
+	  }	
+	  
+	  
+  .tj .title{
+	font-size:14px;
+	line-height:15px;
+
+	  }
+  .tj .title span{
+	font-size:12px;
+	line-height:32px;
+	text-indent:68px;
+	  }
+  .tj .title a{
+	  background-size:7px;
+
+	  }	
+	  
+	   	    	  
+   .yry .title{
+	font-size:14px;
+	line-height:15px;
+
+	  }
+  .yry .title span{
+	font-size:12px;
+	line-height:32px;
+	text-indent:55px;
+	  }
+  .yry .title a{
+	  background-size:7px;
+
+	  }
+
+}
+
+  @media screen and (max-width: 375px) {
+	 .jdyd .firLi button{
+		 display:none;
+		
+	  }
+	 .tj .firLi button{
+		 display:none;
+		
+	  }	
+	  .yry .firLi button{
+		 display:none;		
+	  }	
+	  	
+	.yx ul li a {
+		display: block;
+		line-height:20px;
+		text-align: center;
+		margin: 5px 10px;
+	} 
+
+  }
+  
+    @media screen and (max-width: 320px) {
+
+   .tj .firLi p {
+     line-height: 17px;
+   }
+   
+  .tj .firLi .secSpan{
+     line-height: 35px; 
+  }
+  .tj .firLi p {
+	  margin-top:-5px;
+	  padding-bottom:0;
+  }
+  
+  .yry .firLi .thiSpan{
+     line-height: 35px; 
+  }
+  .yry .firLi p {
+	  margin-top:-5px;
+	  padding-bottom:0;
+  }
+
+  }
