@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>star</title>
+	<style type="text/css">
+		.star-wrap{
+			font-size: 0;
+		}
+		.star{
+			display: inline-block;
+			width: 24px;
+			height: 24px;
+			margin-right: 10px;
+		}
+		.star.star_full{
+			background:url('./img/star_full.png') no-repeat;
+			background-size: 24px 24px;
+		}
+		.star.star_half{
+			background:url('./img/star_half.png') no-repeat;
+			background-size: 24px 24px;
+		}
+		.star.star_void{
+			background:url('./img/star_void.png') no-repeat;
+			background-size: 24px 24px;
+		}
+	</style>
+</head>
+<body>
+	<div class="star-wrap" id="star-wrap">
+		<span class="star"></span>
+		<span class="star"></span>
+		<span class="star"></span>
+		<span class="star"></span>
+		<span class="star"></span>
+	</div>
+	<script>
+		var starBox = document.querySelector('#star-wrap');
+		var starList = document.querySelectorAll('.star');
+		var Len = starList.length;
+		var score=1.5;
+		var full=Math.floor(score);
+		var half=(score-full)>=0.5 ? 1 : 0;
+		console.log(half);
+		for(var i=1;i<=full;i++){
+			starList[i-1].classList.add('star_full');
+		}
+		full+=1;
+		if(half){
+			console.log(full)
+			starList[full-1].classList.add('star_half');
+			for(var i=full+1;i<=Len;i++)
+			{starList[i-1].classList.add('star_void');}
+		}else{
+			for(var i=full;i<=Len;i++)
+			starList[i-1].classList.add('star_void');
+		}
+	</script>
+</body>
+</html>
