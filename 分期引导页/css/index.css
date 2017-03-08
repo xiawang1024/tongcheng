@@ -1,0 +1,660 @@
+.swiper-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.swiper-container .slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.swiper-container .slide.slide-wrap1 {
+  background: #ff6766;
+}
+.swiper-container .slide.slide-wrap1 .t1 {
+  position: absolute;
+  display: inline-block;
+  width: 4.763888888888889rem;
+  height: 0.763888888888889rem;
+  top: 2.069444444444445rem;
+  left: 2.597222222222222rem;
+  background: url("../imgs/a/a.t1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap1 .t2 {
+  position: absolute;
+  display: inline-block;
+  width: 7.722222222222222rem;
+  height: 0.402777777777778rem;
+  top: 3.25rem;
+  left: 1rem;
+  background: url("../imgs/a/a.t2.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap1 .tu {
+  position: absolute;
+  z-index: 100;
+  display: inline-block;
+  width: 5.041666666666667rem;
+  height: 5.666666666666667rem;
+  top: 5.388888888888889rem;
+  left: 3.361111111111111rem;
+  background: url("../imgs/a/a.tu.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap1 .text {
+  position: absolute;
+  display: inline-block;
+  width: 1.777777777777778rem;
+  height: 1.75rem;
+  top: 6.708333333333333rem;
+  left: 6.888888888888889rem;
+  background: url("../imgs/a/a.text.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap1 .pic {
+  position: absolute;
+  display: inline-block;
+  width: 4.513888888888889rem;
+  height: 4.541666666666667rem;
+  top: 9.027777777777779rem;
+  left: 1.875rem;
+  background: url("../imgs/a/a.pic.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap1 .star1 {
+  position: absolute;
+  display: inline-block;
+  width: 0.444444444444444rem;
+  height: 0.444444444444444rem;
+  top: 8.444444444444445rem;
+  left: 2.541666666666667rem;
+  background: url("../imgs/a/a.star1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap1 .star2 {
+  position: absolute;
+  display: inline-block;
+  width: 0.777777777777778rem;
+  height: 0.777777777777778rem;
+  top: 12.88888888888889rem;
+  left: 2.986111111111111rem;
+  background: url("../imgs/a/a.star1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap1 .star3 {
+  position: absolute;
+  display: inline-block;
+  width: 0.486111111111111rem;
+  height: 0.486111111111111rem;
+  top: 13.180555555555555rem;
+  left: 6.069444444444445rem;
+  background: url("../imgs/a/a.star1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap1 .star4 {
+  position: absolute;
+  display: inline-block;
+  width: 0.25rem;
+  height: 0.25rem;
+  top: 13.527777777777779rem;
+  left: 5.069444444444445rem;
+  background: url("../imgs/a/a.star1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap1 .icon1 {
+  position: absolute;
+  display: inline-block;
+  width: 0.25rem;
+  height: 0.25rem;
+  top: 12.555555555555555rem;
+  left: 2.513888888888889rem;
+  background: url("../imgs/a/a.icon1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap1 .icon2 {
+  position: absolute;
+  display: inline-block;
+  width: 0.083333333333333rem;
+  height: 0.083333333333333rem;
+  top: 11.875rem;
+  left: 2.111111111111111rem;
+  background: url("../imgs/a/a.icon4.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap1 .icon3 {
+  position: absolute;
+  display: inline-block;
+  width: 0.222222222222222rem;
+  height: 0.222222222222222rem;
+  top: 12.555555555555555rem;
+  left: 6.888888888888889rem;
+  background: url("../imgs/a/a.icon2.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap1 .shadow {
+  position: absolute;
+  display: inline-block;
+  width: 2.916666666666667rem;
+  height: 0.625rem;
+  top: 14.472222222222221rem;
+  left: 3.763888888888889rem;
+  background: url("../imgs/a/a.shadow.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap2 {
+  background: #f0ad2b;
+}
+.swiper-container .slide.slide-wrap2 .t1 {
+  position: absolute;
+  display: inline-block;
+  width: 4.763888888888889rem;
+  height: 0.763888888888889rem;
+  top: 2.069444444444445rem;
+  left: 2.597222222222222rem;
+  background: url("../imgs/b/b.t1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap2 .t2 {
+  position: absolute;
+  display: inline-block;
+  width: 7.722222222222222rem;
+  height: 0.402777777777778rem;
+  top: 3.25rem;
+  left: 1rem;
+  background: url("../imgs/b/b.t2.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap2 .tu {
+  position: absolute;
+  z-index: 100;
+  display: inline-block;
+  width: 5.416666666666667rem;
+  height: 6.305555555555555rem;
+  top: 5.555555555555555rem;
+  left: 1.236111111111111rem;
+  background: url("../imgs/b/b.tu.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap2 .text {
+  position: absolute;
+  display: inline-block;
+  width: 1.777777777777778rem;
+  height: 1.75rem;
+  top: 5.847222222222222rem;
+  left: 6.805555555555555rem;
+  background: url("../imgs/b/b.text.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap2 .pic {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 5.486111111111111rem;
+  height: 1.486111111111111rem;
+  top: 11.11111111111111rem;
+  left: 2.083333333333333rem;
+  background: url("../imgs/b/b.pic.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap2 .star1 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.263888888888889rem;
+  height: 0.263888888888889rem;
+  top: 6.805555555555555rem;
+  left: 2.361111111111111rem;
+  background: url("../imgs/b/b.star1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap2 .star2 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.319444444444444rem;
+  height: 0.319444444444444rem;
+  top: 7.944444444444445rem;
+  left: 1.902777777777778rem;
+  background: url("../imgs/b/b.star1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap2 .star3 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.263888888888889rem;
+  height: 0.263888888888889rem;
+  top: 8.25rem;
+  left: 7rem;
+  background: url("../imgs/b/b.star4.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap2 .star4 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.416666666666667rem;
+  height: 0.416666666666667rem;
+  top: 9.902777777777779rem;
+  left: 7.208333333333333rem;
+  background: url("../imgs/b/b.star4.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap2 .shadow {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 2.791666666666667rem;
+  height: 0.597222222222222rem;
+  top: 13.541666666666666rem;
+  left: 3.611111111111111rem;
+  background: url("../imgs/b/b.shadow.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap3 {
+  background: #91d625;
+}
+.swiper-container .slide.slide-wrap3 .t1 {
+  position: absolute;
+  display: inline-block;
+  width: 4.763888888888889rem;
+  height: 0.763888888888889rem;
+  top: 2.069444444444445rem;
+  left: 2.597222222222222rem;
+  background: url("../imgs/c/c.t1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap3 .t2 {
+  position: absolute;
+  display: inline-block;
+  width: 7.722222222222222rem;
+  height: 0.402777777777778rem;
+  top: 3.25rem;
+  left: 1rem;
+  background: url("../imgs/c/c.t2.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap3 .tu {
+  position: absolute;
+  z-index: 100;
+  display: inline-block;
+  width: 5.583333333333333rem;
+  height: 7.041666666666667rem;
+  top: 5.861111111111111rem;
+  left: 2.958333333333333rem;
+  background: url("../imgs/c/c.tu.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap3 .text {
+  position: absolute;
+  display: inline-block;
+  width: 1.777777777777778rem;
+  height: 1.75rem;
+  top: 5.847222222222222rem;
+  left: 6.805555555555555rem;
+  background: url("../imgs/c/c.text.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap3 .star1 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.263888888888889rem;
+  height: 0.263888888888889rem;
+  top: 7.097222222222222rem;
+  left: 2.861111111111111rem;
+  background: url("../imgs/c/c.star1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap3 .star2 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.125rem;
+  height: 0.125rem;
+  top: 9.61111111111111rem;
+  left: 2.194444444444445rem;
+  background: url("../imgs/c/c.star1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap3 .star3 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.25rem;
+  height: 0.25rem;
+  top: 8.458333333333334rem;
+  left: 7.638888888888889rem;
+  background: url("../imgs/c/c.star3.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap3 .icon1 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  top: 8.98611111111111rem;
+  left: 2.486111111111111rem;
+  background: url("../imgs/c/c.icon1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap3 .icon2 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 1.027777777777778rem;
+  height: 1.027777777777778rem;
+  top: 8.291666666666666rem;
+  left: 1.347222222222222rem;
+  background: url("../imgs/c/c.icon2.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap3 .icon3 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.791666666666667rem;
+  height: 0.791666666666667rem;
+  top: 6.916666666666667rem;
+  left: 1.777777777777778rem;
+  background: url("../imgs/c/c.icon3.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap3 .shadow {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 2.791666666666667rem;
+  height: 0.597222222222222rem;
+  top: 13.541666666666666rem;
+  left: 3.583333333333333rem;
+  background: url("../imgs/c/c.shadow.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 {
+  background: #48b5f8;
+}
+.swiper-container .slide.slide-wrap4 .t1 {
+  position: absolute;
+  display: inline-block;
+  width: 5.583333333333333rem;
+  height: 0.777777777777778rem;
+  top: 2.069444444444445rem;
+  left: 2.194444444444445rem;
+  background: url("../imgs/d/d.t1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 .t2 {
+  position: absolute;
+  display: inline-block;
+  width: 6.263888888888889rem;
+  height: 0.402777777777778rem;
+  top: 3.263888888888889rem;
+  left: 1.777777777777778rem;
+  background: url("../imgs/d/d.t2.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 .tu {
+  position: absolute;
+  z-index: 100;
+  display: inline-block;
+  width: 4.791666666666667rem;
+  height: 5.888888888888889rem;
+  top: 6.833333333333333rem;
+  left: 2.069444444444445rem;
+  background: url("../imgs/d/d.tu.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 .text {
+  position: absolute;
+  display: inline-block;
+  width: 1.777777777777778rem;
+  height: 1.75rem;
+  top: 6.180555555555555rem;
+  left: 6.555555555555555rem;
+  background: url("../imgs/d/d.text.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 .star1 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.263888888888889rem;
+  height: 0.263888888888889rem;
+  top: 6.263888888888889rem;
+  left: 5.236111111111111rem;
+  background: url("../imgs/d/d.star1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 .star2 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.25rem;
+  height: 0.25rem;
+  top: 6.805555555555555rem;
+  left: 1.875rem;
+  background: url("../imgs/d/d.star2.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 .star3 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.125rem;
+  height: 0.125rem;
+  top: 6.527777777777778rem;
+  left: 6.319444444444445rem;
+  background: url("../imgs/d/d.star3.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 .star4 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.097222222222222rem;
+  height: 0.097222222222222rem;
+  top: 8.527777777777779rem;
+  left: 1.833333333333333rem;
+  background: url("../imgs/d/d.star4.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 .icon1 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 1.166666666666667rem;
+  height: 1.638888888888889rem;
+  top: 8.88888888888889rem;
+  left: 6.625rem;
+  background: url("../imgs/d/d.icon1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 .icon2 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 1.583333333333333rem;
+  height: 1.597222222222222rem;
+  top: 10.38888888888889rem;
+  left: 6.625rem;
+  background: url("../imgs/d/d.icon2.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 .icon3 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 1.611111111111111rem;
+  height: 1.569444444444444rem;
+  top: 7rem;
+  left: 1.472222222222222rem;
+  background: url("../imgs/d/d.icon3.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 .icon4 {
+  position: absolute;
+  display: inline-block;
+  width: 1.388888888888889rem;
+  height: 1.333333333333333rem;
+  top: 6.25rem;
+  left: 2.208333333333333rem;
+  background: url("../imgs/d/d.icon4.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap4 .shadow {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 2.791666666666667rem;
+  height: 0.597222222222222rem;
+  top: 13.541666666666666rem;
+  left: 3.583333333333333rem;
+  background: url("../imgs/d/d.shadow.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 {
+  background: #d48af4;
+}
+.swiper-container .slide.slide-wrap5 .t1 {
+  position: absolute;
+  display: inline-block;
+  width: 3.166666666666667rem;
+  height: 0.777777777777778rem;
+  top: 2.097222222222222rem;
+  left: 3.361111111111111rem;
+  background: url("../imgs/e/e.t1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .t2 {
+  position: absolute;
+  display: inline-block;
+  width: 4.916666666666667rem;
+  height: 0.402777777777778rem;
+  top: 3.277777777777778rem;
+  left: 2.458333333333333rem;
+  background: url("../imgs/e/e.t2.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .tu {
+  position: absolute;
+  z-index: 100;
+  display: inline-block;
+  width: 4.930555555555555rem;
+  height: 5.916666666666667rem;
+  top: 6.25rem;
+  left: 3.388888888888889rem;
+  background: url("../imgs/e/e.tu.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .text {
+  position: absolute;
+  z-index: 105;
+  display: inline-block;
+  width: 1.777777777777778rem;
+  height: 1.75rem;
+  top: 7.013888888888889rem;
+  left: 6.763888888888889rem;
+  background: url("../imgs/e/e.text.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .pic {
+  position: absolute;
+  display: inline-block;
+  width: 3.319444444444445rem;
+  height: 3.972222222222222rem;
+  top: 9.569444444444445rem;
+  left: 3.333333333333333rem;
+  background: url("../imgs/e/e.pic.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .star1 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.25rem;
+  height: 0.25rem;
+  top: 6.152777777777778rem;
+  left: 7.208333333333333rem;
+  background: url("../imgs/e/e.star1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .star2 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.125rem;
+  height: 0.125rem;
+  top: 6.041666666666667rem;
+  left: 3.222222222222222rem;
+  background: url("../imgs/e/e.star2.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .star3 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.125rem;
+  height: 0.125rem;
+  top: 7.875rem;
+  left: 2.097222222222222rem;
+  background: url("../imgs/e/e.star2.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .star4 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 0.416666666666667rem;
+  height: 0.555555555555556rem;
+  top: 6.888888888888889rem;
+  left: 7.430555555555555rem;
+  background: url("../imgs/e/e.star4.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .icon1 {
+  position: absolute;
+  z-index: 101;
+  display: inline-block;
+  width: 1.402777777777778rem;
+  height: 1.208333333333333rem;
+  top: 8.305555555555555rem;
+  left: 1.625rem;
+  background: url("../imgs/e/e.icon1.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .icon2 {
+  position: absolute;
+  display: inline-block;
+  width: 0.763888888888889rem;
+  height: 0.861111111111111rem;
+  top: 6.111111111111111rem;
+  left: 2.277777777777778rem;
+  background: url("../imgs/e/e.icon2.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .icon3 {
+  position: absolute;
+  display: inline-block;
+  width: 0.777777777777778rem;
+  height: 0.902777777777778rem;
+  top: 5.527777777777778rem;
+  left: 4.430555555555555rem;
+  background: url("../imgs/e/e.icon3.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .shadow {
+  position: absolute;
+  display: inline-block;
+  width: 2.791666666666667rem;
+  height: 0.597222222222222rem;
+  top: 13.541666666666666rem;
+  left: 3.583333333333333rem;
+  background: url("../imgs/e/e.shadow.png") no-repeat;
+  background-size: cover;
+}
