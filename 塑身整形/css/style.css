@@ -1,0 +1,823 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0; 
+	padding:0; 
+	color:#333;
+}
+	
+body{
+	font-family:"微软雅黑";
+	font-size:14px;
+	background:#fff;
+	max-width:640px;
+    margin: 0 auto;
+}
+	
+a{ text-decoration:none;}
+
+ul li{
+	 list-style:none;
+   }
+	 
+img{ border:0;}
+.left{ float:left;}
+
+
+/*头部标题*/
+.top{
+	background:#fff;
+    position: relative;
+	padding-top:100px;
+	
+	}
+.top .next{
+    position: absolute;
+    width: 96%;
+    top: 25%;
+    left: 2%;
+	background:url(../images/next.png) no-repeat;
+	display: block;
+    height: 40px;
+ }
+.top span{
+    position: absolute;
+    width: 96%;
+    top: 2%;
+    left: 2%;
+	font-size:30px;
+	text-indent:10px;
+	line-height:80px;
+	text-align:center;
+	letter-spacing:10px;
+ }
+
+.top .search{
+    position: absolute;
+    width: 6%;
+    top: 25%;
+    left: 92%;
+	background:url(../images/search.png) no-repeat;
+	display:block;
+	height:40px;
+	
+ }
+ 
+ 
+ 
+.banner{
+	overflow:hidden;
+	}	 
+.banner img{
+	width:100%;
+	vertical-align: top; 
+}
+
+
+
+/*项目*/
+	.tb {
+	  padding-top: 20px;
+	  clear: both;
+	  overflow:hidden;
+	  padding-bottom:10px;
+	  position: relative;
+	}
+	.tb img{
+		width:100%;
+		vertical-align: top;
+	}
+	
+	.tb ul {
+	  position:absolute;	
+	  top:8%;
+	  left:0%;
+	  margin: 0 auto;
+	  display: none;
+	  overflow:hidden;
+	  width:100%;
+	}
+	.tb ul li {
+	  width: 25%;
+	  margin-bottom: 10px;
+	  text-align: center;
+	  display: inline-block;
+	  float: left;
+	}
+	.tb ul li a{
+		display:block;
+		line-height:35px;
+	}
+	.tb ul li img {
+	  vertical-align: top;
+	  width:60%;
+	}
+	.tb ul li .title {
+	  display: block;
+	  margin: 10px auto;
+	  font-size: 18px;
+	  height: 30px;
+	  line-height: 25px;
+	  overflow: hidden;
+	  color: #333;
+	}
+	
+	.tb ul.selected {
+	  display: block;
+	}
+	.tb ul li .title:hover {
+		text-decoration:underline;
+	}
+
+
+/*美容整形广告*/
+	.mrzx{ 
+	  margin:0 auto; 
+	  overflow:hidden;
+	  background:#ffe8ee; 
+	  padding: 10px 10px 5px 10px;
+	}
+	.mrzx .left{ 
+		width: 41%; 
+		float:left; 
+		position: relative; 
+	}
+	.mrzx .left img{ 
+		width:100%; 
+		vertical-align: top; 
+	}
+	
+	.mrzx .right{
+		margin-left: 43%; 
+	}
+	.mrzx .right div{
+	  position: relative;
+	  margin-bottom:6px;
+	}
+	.mrzx .right img{ 
+	  width: 100%;
+	  vertical-align: top
+	}
+
+
+/*牙齿美容*/	
+  .ycmr{
+    position: relative;
+	background:#ffe8ee;
+	overflow: hidden;
+	
+  }
+ .ycmr .title .zzBg{
+      width: 100%;
+	  vertical-align: top;
+	  }	 
+ .ycmr .title a{
+	  position: absolute;
+      width:3%;
+      top: 6%;
+      left:96%;
+	  background:url(../images/55.png) no-repeat;
+	  display:block;
+	  height:20px;
+	  float:right;
+ 
+	  }	
+	.ycmr .content{
+		padding: 20px 10px 0 10px;
+		margin-bottom:20px;
+		overflow:hidden;
+		
+		}    	 
+	.ycmr .left{ 
+		width: 41%; 
+		float:left; 
+		position: relative; 
+	}
+	.ycmr .left .zz{ 
+		width:100%; 
+		vertical-align: top; 
+	}
+
+
+	.ycmr .right{ 
+		margin-left: 43%; 
+		position: relative; 
+		overflow: hidden;
+	}
+	.ycmr .right div{
+	  position: relative;
+	  margin-bottom:6px;
+	}
+	.ycmr .right .hd1 img{ 
+	  vertical-align: top;
+	  width: 99%;
+	}
+	.ycmr .right .my_jw{
+	  height: 30px; 
+	  line-height: 30px;
+	  position: absolute;
+	  width: 100%;
+	  left: 0; bottom: 0;
+	  border-radius: 0 0 10px 10px;
+	  overflow: hidden;
+	  font-size: 16px;
+	  text-indent:20px;
+	}
+	.ycmr .right .my_jw em{
+		color:#ff1874;
+		font-style:normal; float:right;
+		margin-right:15px;
+	}
+
+	.ycmr .right .my_jw small{
+		color:#ff1874;
+	}
+	
+    .ycmr .right .hd2{
+		overflow:hidden;
+		margin-top:10px;
+
+	}
+
+	.ycmr .right .hd2 .lgmb{
+		width:52.4%;
+	
+	}
+	
+	.ycmr .left .zz2,.zz3{ 
+		vertical-align: top; 
+	}
+	
+	
+	.ycmr .right .my_jw2{
+	  height: 30px; 
+	  line-height: 30px;
+	  position: absolute;
+	  width: 100%;
+	  left: 0; bottom: 0;
+	  border-radius: 0 0 10px 10px;
+	  overflow: hidden;
+	  font-size: 16px;
+	  text-indent:20px;
+	}
+
+	.ycmr .right .my_jw3{
+	  height: 30px; 
+	  line-height: 30px;
+	  position: absolute;
+	  width: 100%;
+	  left: 0; bottom: 0;
+	  border-radius: 0 0 10px 10px;
+	  overflow: hidden;
+	  font-size: 16px;
+	  text-indent:20px;
+	}
+
+
+
+/*面部整形*/	
+  .mbzx{
+    position: relative;
+	background:#ffe8ee;
+	overflow: hidden;
+	
+  }
+ .mbzx .title .zzBg{
+      width: 100%;
+	  vertical-align: top;
+	  }	 
+ .mbzx .title a{
+	  position: absolute;
+      width:3%;
+      top: 6%;
+      left: 96%;
+	  background:url(../images/55.png) no-repeat;
+	  display:block;
+	  height:20px;
+	  float:right;
+ 
+	  }	
+	.mbzx .content{
+		padding: 20px 10px 0 10px;
+		margin-bottom:20px;
+		overflow:hidden;
+		
+		}    	 
+	.mbzx .left{ 
+		width: 41%; 
+		float:left; 
+		position: relative; 
+	}
+	.mbzx .left .zz{ 
+		width:100%; 
+		vertical-align: top; 
+	}
+
+
+	.mbzx .right{ 
+		margin-left: 43%; 
+		position: relative; 
+		overflow: hidden;
+	}
+	.mbzx .right div{
+	  position: relative;
+	  margin-bottom:6px;
+	}
+	.mbzx .right .hd1 img{ 
+	  vertical-align: top;
+	  width: 99.5%;
+	}
+	.mbzx .right .my_jw{
+	  height: 30px; line-height: 30px;
+	  position: absolute;
+	  width: 100%;
+	  left: 0; bottom: 0;
+	  border-radius: 0 0 10px 10px;
+	  overflow: hidden;
+	  font-size: 16px;
+	  text-indent:20px;
+	}
+	.mbzx .right .my_jw em{
+		color:#ff1874;
+		font-style:normal; float:right;
+		margin-right:15px;
+	}
+
+	.mbzx .right .my_jw small{
+		color:#ff1874;
+	}
+	
+    .mbzx .right .hd2{
+		overflow:hidden;
+		margin-top:10px;
+
+	}
+
+	.mbzx .right .hd2 .lgmb{
+		width:53%;
+	
+	}
+	
+	.mbzx .left .zz2,.zz3{ 
+		vertical-align: top; 
+	}
+	
+
+	.mbzx .right .my_jw2{
+	  height: 30px; 
+	  line-height: 30px;
+	  position: absolute;
+	  width: 100%;
+	  left: 0; bottom: 0;
+	  border-radius: 0 0 10px 10px;
+	  overflow: hidden;
+	  font-size: 16px;
+	  text-indent:20px;
+	}
+
+	.mbzx .right .my_jw3{
+	  height: 30px; 
+	  line-height: 30px;
+	  position: absolute;
+	  width: 100%;
+	  left: 0; bottom: 0;
+	  border-radius: 0 0 10px 10px;
+	  overflow: hidden;
+	  font-size: 16px;
+	  text-indent:20px;
+	}
+
+
+/*减肥塑形*/	
+  .jfsx{
+    position: relative;
+	background:#ffe8ee;
+	overflow: hidden;
+	
+  }
+ .jfsx .title .zzBg{
+      width: 100%;
+	  vertical-align: top;
+	  }	 
+ .jfsx .title a{
+	  position: absolute;
+      width:3%;
+      top: 6%;
+      left: 96%;
+	  background:url(../images/55.png) no-repeat;
+	  display:block;
+	  height:20px;
+	  float:right;
+ 
+	  }	
+	.jfsx .content{
+		padding: 20px 10px 0 10px;
+		margin-bottom:20px;
+		overflow:hidden;
+		
+		}    	 
+	.jfsx .left{ 
+		width: 41%; 
+		float:left; 
+		position: relative; 
+	}
+	.jfsx .left .zz{ 
+		width:100%; 
+		vertical-align: top; 
+	}
+
+
+	.jfsx .right{ 
+		margin-left: 43%; 
+		position: relative; 
+		overflow: hidden;
+	}
+	.jfsx .right div{
+	  position: relative;
+	  margin-bottom:6px;
+	}
+	.jfsx .right .hd1 img{ 
+	  vertical-align: top;
+	  width: 99.5%;
+	}
+	.jfsx .right .my_jw{
+	  height: 30px; line-height: 30px;
+	  position: absolute;
+	  width: 100%;
+	  left: 0; bottom: 0;
+	  border-radius: 0 0 10px 10px;
+	  overflow: hidden;
+	  font-size: 16px;
+	  text-indent:20px;
+	}
+	
+	.jfsx .right .my_jw em{
+		color:#ff1874;
+		font-style:normal; float:right;
+		margin-right:15px;
+	}
+
+	.jfsx .right .my_jw small{
+		color:#ff1874;
+	}
+	
+    .jfsx .right .hd2{
+		overflow:hidden;
+		margin-top:10px;
+
+	}
+
+	.jfsx .right .hd2 .lgmb{
+		width:53%;
+	
+	}
+	
+	.jfsx .left .zz2,.zz3{ 
+		vertical-align: top; 
+	}
+	
+	
+	.jfsx .right .my_jw2{
+	  height: 30px; 
+	  line-height: 30px;
+	  position: absolute;
+	  width: 100%;
+	  left: 0; bottom: 0;
+	  border-radius: 0 0 10px 10px;
+	  overflow: hidden;
+	  font-size: 16px;
+	  text-indent:20px;
+	}
+
+	.jfsx .right .my_jw3{
+	  height: 30px; 
+	  line-height: 30px;
+	  position: absolute;
+	  width: 100%;
+	  left: 0; bottom: 0;
+	  border-radius: 0 0 10px 10px;
+	  overflow: hidden;
+	  font-size: 16px;
+	  text-indent:20px;
+	}
+
+/*为您优选*/	
+	.yx{
+		position:relative;
+	  
+	}
+	.yx img{
+		width:100%;
+		vertical-align:top;
+	  
+	}
+	.yx ul{ 
+		width:96%;
+		position:absolute;
+		top:100%;
+		left:3.8%;
+		background:#fff;
+		padding-bottom: 50px;
+		margin-top: 30px;
+	}
+	.yx ul li{
+		float:left;
+		width:31%; 
+	}
+	.yx ul li a{
+		display:block;
+		line-height:30px;
+		text-align:center;
+		margin:15px 10px;
+	  
+	}
+	.yx ul li a:hover{
+		text-decoration:underline;
+	  
+	}
+	.yx ul li a img{
+		width:65%;
+	  
+	}
+	.yx ul li span{
+		text-align:center;
+		display:block;
+		font-size: 16px;
+		font-weight: bold;
+	  
+	}
+  @media screen and (max-width: 435px) {  
+  /*头部标题*/
+	  .top{
+		padding-top:60px;
+		
+		}
+	  .top .next{
+	   background-size: 12px;
+	 }
+	  .top span{
+		font-size:18px;
+		margin-top:-15px;
+	 }
+	
+	  .top .search{
+	   background-size: 20px;	
+	 }
+	 
+  /*项目*/
+	.tb ul li {
+     margin-bottom:0;
+
+	}
+	.tb ul li .title {
+		font-size: 12px;
+		line-height: 15px;
+
+	}
+		
+	/*牙齿美容*/	 
+	 .ycmr .title a{
+		 background-size:8px;
+	 
+	}	
+    .ycmr .content {
+		padding: 10px 10px 0 10px;
+		margin-bottom:0;
+	}
+	.ycmr .right .hd1 img{ 
+	    width: 100%;
+	}
+	
+	.ycmr .right .my_jw{
+		  font-size: 12px;
+		  line-height:35px;
+		  text-indent:5px;
+	}	
+	.ycmr .right .my_jw em {
+		margin-right: 5px;
+	}   			
+	.ycmr .left .zz2{
+		width:84.5%;
+	}
+	.ycmr .left .zz3{
+		width:110%;
+	}
+	
+	.ycmr .right .my_jw2{
+	  font-size: 12px;
+	  text-indent:5px;
+	  line-height:40px;
+	}
+
+	.ycmr .right .my_jw3{ 
+	  line-height: 40px;
+	  font-size: 12px;
+	  text-indent:5px;
+	}	  
+	/*面部整形*/	 
+	 .mbzx .title a{
+		 background-size:8px;
+	 
+	}	
+    .mbzx .content {
+		padding: 10px 10px 0 10px;
+		margin-bottom:0;
+	}
+	.mbzx .right .hd1 img{ 
+	    width: 100%;
+	}
+	
+	.mbzx .right .my_jw{
+		  font-size: 12px;
+		  line-height:35px;
+		  text-indent:5px;
+	}	
+	.mbzx .right .my_jw em {
+		margin-right: 5px;
+	} 
+	 			
+	.mbzx .left .zz2{
+		width:84%;
+	}
+	.mbzx .left .zz3{
+		width:110%;
+	}
+	
+	.mbzx .right .my_jw2{
+	  font-size: 12px;
+	  text-indent:5px;
+	  line-height:40px;
+	}
+
+	.mbzx .right .my_jw3{ 
+	  line-height: 40px;
+	  font-size: 12px;
+	  text-indent:5px;
+	}
+	
+		  
+	/*面部整形*/	 
+	 .jfsx .title a{
+		 background-size:8px;
+	 
+	}	
+    .jfsx .content {
+		padding: 10px 10px 0 10px;
+		margin-bottom:0;
+	}
+	.jfsx .right .hd1 img{ 
+	    width: 100%;
+	}
+	
+	.jfsx .right .my_jw{
+		  font-size: 12px;
+		  line-height:35px;
+		  text-indent:5px;
+	}	
+	.jfsx .right .my_jw em {
+		margin-right: 5px;
+	} 
+	 			
+	.jfsx .left .zz2{
+		width:84%;
+	}
+	.jfsx .left .zz3{
+		width:110%;
+	}
+	
+	.jfsx .right .my_jw2{
+	  font-size: 12px;
+	  text-indent:5px;
+	  line-height:40px;
+	}
+
+	.jfsx .right .my_jw3{ 
+	  line-height: 40px;
+	  font-size: 12px;
+	  text-indent:5px;
+	}	  
+	
+			  
+   /*为您优选*/	
+	 .yx ul{ 
+		padding-bottom: 30px;
+		margin-top: 10px;
+	}
+	 .yx ul li span{
+	    font-size: 12px;  
+   }
+  } 
+   @media screen and (max-width: 375px) {
+
+/*项目*/
+	.tb ul li {
+		margin-bottom:-5px;
+
+	}
+	
+/*牙齿美容*/
+   .ycmr .left{ 
+		width: 42%; 
+	}
+	
+   .ycmr .right .hd2 .lgmb {
+         width: 54.5%;
+    }
+	
+    .ycmr .right .my_jw{
+		  line-height:42px;
+		  
+	}
+	.ycmr .right .my_jw2{
+		overflow:hidden;
+		width:88.5%;
+		line-height:43px;
+	}
+	.ycmr .right .my_jw3{
+		line-height:43px;
+	}
+
+	
+
+   
+
+	
+/*为您优选*/	  	
+	.yx ul li a {
+		display: block;
+		line-height:20px;
+		text-align: center;
+		margin: 5px 10px;
+	} 
+	
+/*面部整形*/
+   	.mbzx .content {
+       margin-bottom: -3px;
+   }
+   .mbzx .left{ 
+		width: 42%; 
+	}
+	
+   .mbzx .right .hd2 .lgmb {
+         width: 54.5%;
+    }	
+    .mbzx .right .my_jw{
+		  line-height:42px;
+		  
+	}
+	.mbzx .right .my_jw2{
+		overflow:hidden;
+		width:88.5%;
+		line-height:43px;
+	}
+	.mbzx .right .my_jw3{
+		line-height:43px;
+	}
+	
+/*减肥塑形*/		
+	.jfsx .content {
+       margin-bottom: -3px;
+   }
+    .jfsx .left{ 
+		width: 42%; 
+	}
+	
+    .jfsx .right .hd2 .lgmb {
+         width: 54.5%;
+    }	
+    .jfsx .right .my_jw{
+		  line-height:42px;
+		  
+	}
+	.jfsx .right .my_jw2{
+		overflow:hidden;
+		width:88.5%;
+		line-height:43px;
+	}
+	.jfsx .right .my_jw3{
+		line-height:43px;
+	}		
+
+  } 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
