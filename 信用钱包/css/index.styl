@@ -1,0 +1,131 @@
+@import './fontSize.styl'
+@import "../node_modules/stylus-px2rem"
+body
+	width 720px
+	background #f5f5f5
+	padding-bottom 96px
+	.g-hd
+		position: relative
+		width 720px
+		height 550px
+		text-align center
+		background #fff		
+	.g-main
+		width 720px
+		height 480px
+		margin-top 20px
+		background #fff
+		overflow hidden
+		.m-item
+			width 720px
+			height 240px
+			display flex
+			border-bottom 1px solid #eee
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			&:last-child
+				border-bottom none 
+			.u-item
+				position: relative
+				flex 1
+				text-align center
+				border-right 1px solid #eee
+				&:last-child
+					border-right none
+				.item-text
+					display inline-block
+					// margin-top 20px
+					position: absolute
+					bottom 70px
+					left 63px
+					font-size 27px
+				.item-icon
+					margin-top 73px
+					display inline-block					
+					&.item-icon-1
+						width 46px
+						height 48px
+						background url('../imgs/icon1.png') no-repeat
+						background-size cover
+					&.item-icon-2
+						width 48px
+						height 48px
+						background url('../imgs/icon2.png') no-repeat
+						background-size cover
+					&.item-icon-3
+						width 49px
+						height 48px
+						margin-top 78px
+						background url('../imgs/icon3.png') no-repeat
+						background-size cover
+					&.item-icon-4
+						width 49px
+						height 50px
+						background url('../imgs/icon4.png') no-repeat
+						background-size cover
+					&.item-icon-5
+						width 48px
+						height 46px
+						background url('../imgs/icon5.png') no-repeat
+						background-size cover
+					&.item-icon-6
+						width 48px
+						height 35px
+						margin-top 78px
+						background url('../imgs/icon6.png') no-repeat
+						background-size cover
+	.g-mainc
+		width 720px
+		margin-top 20px
+		overflow hidden
+		.m-ad
+			position: relative
+			width 720px
+			height 320px
+			overflow hidden
+			&.m-ad1				
+				.ad1-btn
+					display inline-block
+					position: absolute
+					right 30px
+					bottom 20px
+					width 160px
+					height 60px
+					background #ea0000
+					border-radius 12px
+					text-align center
+					line-height 60px
+					color #fff
+					font-size 24px
+					font-weight 700
+			&.m-ad2
+				margin-top 20px
+				margin-bottom 20px
+				.img-title
+					display inline-block
+					position: absolute
+					width 184px
+					height 163px
+					top 0
+					left 0
+					background url('../imgs/title.png') no-repeat
+					background-size cover
+				.ad2-btn
+					display inline-block
+					position: absolute
+					right 30px
+					bottom 20px
+					width 160px
+					height 60px
+					background #feff04
+					border-radius 12px
+					text-align center
+					line-height 60px
+					color #000
+					font-size 24px
+					font-weight 700
+			.ad-img
+				display block
+				width 720px
+				height 320px

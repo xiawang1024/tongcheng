@@ -1,0 +1,49 @@
+body .g-hd {
+  width: 10rem;
+  height: 8.194444444444445rem;
+}
+body .g-hd .m-dash {
+  width: 10rem;
+  height: 6.527777777777778rem;
+  overflow: hidden;
+  background: url("../imgs/1.png") no-repeat #0084ff;
+  background-size: cover;
+}
+body .g-hd .m-dash .canvas1 {
+  display: block;
+  margin: 0.416666666666667rem auto;
+  width: 5.555555555555555rem;
+  height: 5.555555555555555rem;
+}
+body .g-hd .m-money {
+  width: 10rem;
+  height: 1.666666666666667rem;
+  overflow: hidden;
+  display: flex;
+}
+body .g-hd .m-money .u-total,
+body .g-hd .m-money .u-pay {
+  flex: 1;
+  text-align: center;
+  font-size: 0.388888888888889rem;
+  font-weight: 500;
+}
+body .g-hd .m-money .u-total .money,
+body .g-hd .m-money .u-pay .money {
+  display: block;
+  margin-top: 0.333333333333333rem;
+}
+body .g-hd .m-money .u-total .text,
+body .g-hd .m-money .u-pay .text {
+  display: block;
+  margin-top: 0.138888888888889rem;
+}
+body .g-hd .m-money .u-total {
+  border-right: 1px solid #eee;
+}
+body .g-hdc {
+  width: 10rem;
+  height: 6.277777777777778rem;
+  margin-top: 0.277777777777778rem;
+  background: #fff;
+}

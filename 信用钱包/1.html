@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	<meta charset="UTF-8">
+	<title>信用钱包</title>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link rel="stylesheet" type="text/css" href="./css/1.css">
+</head>
+<body>
+	<div class="g-hd">
+		<div class="m-dash">
+			<div class="u-dash">
+				<canvas class="canvas1" id="canvas1" width="400px" height="400px"></canvas>
+			</div>
+		</div>
+		<div class="m-money">
+			<div class="u-total">
+				<span class="money total-money">30000.00</span>
+				<span class="text total-text">总额度</span>
+			</div>
+			<div class="u-pay">
+				<span class="money pay-money">0.00</span>
+				<span class="text pay-text">已消费</span>
+			</div>
+		</div>
+	</div>
+	<div class="g-hdc">
+		
+	</div>
+	<div class="g-main">
+		<div class="m-item">
+			<div class="u-item">
+				<span class="item-icon item-icon-1"></span>
+				<span class="item-text">同城分期</span>
+			</div>
+			<div class="u-item">
+				<span class="item-icon item-icon-2"></span>
+				<span class="item-text">教育培训</span>
+			</div>
+			<div class="u-item">
+				<span class="item-icon item-icon-3"></span>
+				<span class="item-text">推荐好友</span>
+			</div>
+		</div>
+		<div class="m-item">
+			<div class="u-item">
+				<span class="item-icon item-icon-4"></span>
+				<span class="item-text">运动健身</span>
+			</div>
+			<div class="u-item">
+				<span class="item-icon item-icon-5"></span>
+				<span class="item-text">休闲娱乐</span>
+			</div>
+			<div class="u-item">
+				<span class="item-icon item-icon-6"></span>
+				<span class="item-text">汽车服务</span>
+			</div>
+		</div>
+	</div>
+	<div class="g-mainc">
+		<div class="m-ad m-ad1">
+			<img class="ad-img" src="./imgs/ad1.png">
+			<a href="###" class="ad1-btn">立即抢购</a>
+		</div>
+		<div class="m-ad m-ad2">
+			<img class="ad-img" src="./imgs/ad2.png">
+			<span class="img-title"></span>
+			<a href="###" class="ad2-btn">立即抢购</a>
+		</div>
+	</div>
+	<script src="./js/dash.js"></script>
+	<script>
+		dash('canvas1', 25000, 50);
+	</script>
+</body>
+</html>
