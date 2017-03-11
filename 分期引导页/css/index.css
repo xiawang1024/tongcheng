@@ -4,6 +4,7 @@
   left: 0;
   bottom: 0;
   right: 0;
+  margin-top: -1.25rem;
 }
 .swiper-container .slide {
   position: relative;
@@ -19,7 +20,7 @@
   display: inline-block;
   width: 4.763888888888889rem;
   height: 0.763888888888889rem;
-  top: 2.069444444444445rem;
+  top: 2.625rem;
   left: 2.597222222222222rem;
   background: url("../imgs/a/a.t1.png") no-repeat;
   background-size: cover;
@@ -29,7 +30,7 @@
   display: inline-block;
   width: 7.722222222222222rem;
   height: 0.402777777777778rem;
-  top: 3.25rem;
+  top: 3.805555555555555rem;
   left: 1rem;
   background: url("../imgs/a/a.t2.png") no-repeat;
   background-size: cover;
@@ -140,7 +141,7 @@
   display: inline-block;
   width: 2.916666666666667rem;
   height: 0.625rem;
-  top: 14.472222222222221rem;
+  top: 13.75rem;
   left: 3.763888888888889rem;
   background: url("../imgs/a/a.shadow.png") no-repeat;
   background-size: cover;
@@ -153,7 +154,7 @@
   display: inline-block;
   width: 4.763888888888889rem;
   height: 0.763888888888889rem;
-  top: 2.069444444444445rem;
+  top: 2.625rem;
   left: 2.597222222222222rem;
   background: url("../imgs/b/b.t1.png") no-repeat;
   background-size: cover;
@@ -163,7 +164,7 @@
   display: inline-block;
   width: 7.722222222222222rem;
   height: 0.402777777777778rem;
-  top: 3.25rem;
+  top: 3.805555555555555rem;
   left: 1rem;
   background: url("../imgs/b/b.t2.png") no-repeat;
   background-size: cover;
@@ -263,7 +264,7 @@
   display: inline-block;
   width: 4.763888888888889rem;
   height: 0.763888888888889rem;
-  top: 2.069444444444445rem;
+  top: 2.625rem;
   left: 2.597222222222222rem;
   background: url("../imgs/c/c.t1.png") no-repeat;
   background-size: cover;
@@ -273,7 +274,7 @@
   display: inline-block;
   width: 7.722222222222222rem;
   height: 0.402777777777778rem;
-  top: 3.25rem;
+  top: 3.805555555555555rem;
   left: 1rem;
   background: url("../imgs/c/c.t2.png") no-repeat;
   background-size: cover;
@@ -384,7 +385,7 @@
   display: inline-block;
   width: 5.583333333333333rem;
   height: 0.777777777777778rem;
-  top: 2.069444444444445rem;
+  top: 2.625rem;
   left: 2.194444444444445rem;
   background: url("../imgs/d/d.t1.png") no-repeat;
   background-size: cover;
@@ -394,7 +395,7 @@
   display: inline-block;
   width: 6.263888888888889rem;
   height: 0.402777777777778rem;
-  top: 3.263888888888889rem;
+  top: 3.819444444444445rem;
   left: 1.777777777777778rem;
   background: url("../imgs/d/d.t2.png") no-repeat;
   background-size: cover;
@@ -526,7 +527,7 @@
   display: inline-block;
   width: 3.166666666666667rem;
   height: 0.777777777777778rem;
-  top: 2.097222222222222rem;
+  top: 2.652777777777778rem;
   left: 3.361111111111111rem;
   background: url("../imgs/e/e.t1.png") no-repeat;
   background-size: cover;
@@ -536,7 +537,7 @@
   display: inline-block;
   width: 4.916666666666667rem;
   height: 0.402777777777778rem;
-  top: 3.277777777777778rem;
+  top: 3.833333333333333rem;
   left: 2.458333333333333rem;
   background: url("../imgs/e/e.t2.png") no-repeat;
   background-size: cover;
@@ -656,5 +657,15 @@
   top: 13.541666666666666rem;
   left: 3.583333333333333rem;
   background: url("../imgs/e/e.shadow.png") no-repeat;
+  background-size: cover;
+}
+.swiper-container .slide.slide-wrap5 .go-btn {
+  position: absolute;
+  display: inline-block;
+  width: 4.583333333333333rem;
+  height: 0.791666666666667rem;
+  top: 13.541666666666666rem;
+  left: 2.652777777777778rem;
+  background: url("../imgs/e/e.btn.png") no-repeat;
   background-size: cover;
 }
