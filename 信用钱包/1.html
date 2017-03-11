@@ -71,7 +71,22 @@
 	</div>
 	<script src="./js/dash.js"></script>
 	<script>
-		dash('canvas1', 25000, 50);
+		var dashInit = function (bgEle, dashEle, score, ratio) {
+			var bgBox = document.querySelector(bgEle);
+			if(score<10000){
+				bgBox.style.backgroundColor="#ff0d00";
+			}else if(score>=10000 && score< 20000){
+				bgBox.style.backgroundColor="#ff8a00"
+			}else if(score>=20000 && score<30000){
+				bgBox.style.backgroundColor="#0084ff";
+			}else if(score>=30000 && score<40000){
+				bgBox.style.backgroundColor="#00cc55";
+			}else{
+				bgBox.style.backgroundColor="#a800ff";
+			}
+			dash(dashEle, score, ratio);
+		}
+		dashInit('.m-dash', 'canvas1', 25000, 50);
 	</script>
 </body>
 </html>
