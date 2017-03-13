@@ -8,8 +8,12 @@ var dash=function (canvasID,score,ratio) {
       radius = 160,   // 绘制圆的半径
       // deg0 = Math.PI / 9;
       deg1 = Math.PI / 5 ;
+      money=score,
       score/=ratio;
-      // console.log(deg1)
+
+      //保留两位小数
+      money=xiaoshu(money);
+      // console.log(money);
       // 
       //根据分数显示不同的背景色  
       if (score < 1000) {
@@ -46,15 +50,19 @@ var dash=function (canvasID,score,ratio) {
       if (angle < aim) {
         angle += dotSpeed;
       }
-     
+     // console.log(score);
       dot.draw(ctx);
-
       if (credit < score - textSpeed) {
         credit += textSpeed;
-      } else if (credit >= score - textSpeed && credit < score) {
-        credit += 1;
-      }
-      text(credit*ratio);
+        text(credit*ratio);
+      }else {
+        text(money);
+      } 
+      // else if (credit > score - textSpeed && credit < score) {
+      //   credit += 0.1;
+      // }
+      // console.log(credit*ratio);
+      // text(Math.round(credit*ratio));
 
       ctx.save();
       ctx.beginPath();
@@ -122,5 +130,21 @@ var dash=function (canvasID,score,ratio) {
     ctx.textBaseLine = 'top';
     ctx.fillText(process, 0 ,10);
     ctx.restore();
+  }
+
+  function xiaoshu(x)
+  {
+     var f = parseFloat(x); 
+       var f = Math.round(x*100)/100; 
+       var s = f.toString(); 
+       var rs = s.indexOf('.'); 
+       if (rs < 0) { 
+         rs = s.length; 
+         s += '.'; 
+       } 
+       while (s.length <= rs + 2) { 
+         s += '0'; 
+       } 
+       return s; 
   }
 }
