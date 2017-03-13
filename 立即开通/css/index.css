@@ -1,0 +1,130 @@
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  footer {
+    height: 110px;
+  }
+  footer a {
+    height: 110px;
+    font-size: 24px;
+    padding-top: 66px;
+    background: no-repeat center 24px;
+    background-size: 42px;
+    line-height: 40px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  footer {
+    height: 165px;
+  }
+  footer a {
+    height: 165px;
+    font-size: 36px;
+    padding-top: 99px;
+    background: no-repeat center 36px;
+    background-size: 63px;
+    line-height: 60px;
+  }
+}
+body {
+  width: 10rem;
+  height: 100%;
+}
+body .g-hd {
+  position: relative;
+  width: 10rem;
+  height: 5.472222222222222rem;
+  overflow: hidden;
+  background: url("../imgs/openwallet.png") no-repeat;
+  background-size: cover;
+}
+body .g-hd .u-back {
+  position: absolute;
+  top: 0.236111111111111rem;
+  left: 0.416666666666667rem;
+  display: inline-block;
+  width: 0.25rem;
+  height: 0.416666666666667rem;
+  background: url("../imgs/back.png") no-repeat;
+  background-size: cover;
+}
+body .g-main {
+  width: 10rem;
+  margin-top: 1.597222222222222rem;
+  display: flex;
+}
+body .g-main .m-item {
+  flex: 1;
+  text-align: center;
+}
+body .g-main .m-item .item-text {
+  display: block;
+  font-size: 0.305555555555556rem;
+  font-weight: 500;
+  margin-top: 0.277777777777778rem;
+}
+body .g-main .m-item:nth-child(1) .item-img {
+  display: inline-block;
+  width: 1.541666666666667rem;
+  height: 1.541666666666667rem;
+  background: url("../imgs/icon1.png") no-repeat;
+  background-size: cover;
+}
+body .g-main .m-item:nth-child(2) .item-img {
+  margin-top: 0.833333333333333rem;
+  display: inline-block;
+  width: 1.708333333333333rem;
+  height: 1.708333333333333rem;
+  background: url("../imgs/icon2.png") no-repeat;
+  background-size: cover;
+}
+body .g-main .m-item:nth-child(2) .item-text {
+  font-size: 0.361111111111111rem;
+  font-weight: 500;
+}
+body .g-main .m-item:nth-child(3) .item-img {
+  display: inline-block;
+  width: 1.541666666666667rem;
+  height: 1.541666666666667rem;
+  background: url("../imgs/icon3.png") no-repeat;
+  background-size: cover;
+}
+body .g-ft {
+  width: 10rem;
+  text-align: center;
+  position: absolute;
+  bottom: 1.111111111111111rem;
+}
+body .g-ft .open-btn {
+  display: inline-block;
+  width: 8.26388888888889rem;
+  height: 1.111111111111111rem;
+  line-height: 1.111111111111111rem;
+  text-align: center;
+  font-size: 0.416666666666667rem;
+  font-weight: 500;
+  color: #fff;
+  background: #08a7fc;
+  border-radius: 0.555555555555556rem;
+  box-shadow: 0 4px 30px 2px #89cef4;
+}
+body .g-ft .u-agree {
+  margin-top: 0.777777777777778rem;
+  width: 10rem;
+  display: block;
+}
+body .g-ft .u-agree .agree-ipt {
+  visibility: hidden;
+}
+body .g-ft .u-agree .check-icon {
+  margin-top: 0.027777777777778rem;
+  display: inline-block;
+  width: 0.291666666666667rem;
+  height: 0.291666666666667rem;
+  background: url("../imgs/checked.png") no-repeat;
+  background-size: cover;
+}
+body .g-ft .u-agree .u-agree-text {
+  vertical-align: top;
+}
+body .g-ft .u-agree .u-agree-text .agree-link {
+  color: #46b4f9;
+}
