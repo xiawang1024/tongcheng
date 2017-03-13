@@ -1,12 +1,73 @@
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  footer {
+    height: 110px;
+  }
+  footer a {
+    height: 110px;
+    font-size: 24px;
+    padding-top: 66px;
+    background: no-repeat center 24px;
+    background-size: 42px;
+    line-height: 40px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  footer {
+    height: 165px;
+  }
+  footer a {
+    height: 165px;
+    font-size: 36px;
+    padding-top: 99px;
+    background: no-repeat center 36px;
+    background-size: 63px;
+    line-height: 60px;
+  }
+}
 body {
   width: 10rem;
   background: #f5f5f5;
   padding-bottom: 1.333333333333333rem;
 }
 body .g-hd {
+  position: relative;
   width: 10rem;
-  height: 7.638888888888889rem;
+  text-align: center;
   background: #fff;
+}
+body .g-hd .background-img {
+  width: 10rem;
+  height: 5.472222222222222rem;
+  display: block;
+}
+body .g-hd .person-img {
+  position: absolute;
+  top: 3.652777777777778rem;
+  left: 0.416666666666667rem;
+  display: block;
+  width: 1.611111111111111rem;
+  height: 1.611111111111111rem;
+  border-radius: 50%;
+}
+body .g-hd .state {
+  position: absolute;
+  top: 4.277777777777778rem;
+  left: 2.555555555555555rem;
+  font-size: 0.388888888888889rem;
+  color: #fff;
+}
+body .g-hd button {
+  position: absolute;
+  top: 4.277777777777778rem;
+  left: 7.333333333333333rem;
+  display: inline-block;
+  width: 2.25rem;
+  height: 0.555555555555556rem;
+  border: 1px solid #fff;
+  background: none;
+  border-radius: 0.111111111111111rem;
+  font-size: 0.361111111111111rem;
+  color: #fff;
 }
 body .g-main {
   width: 10rem;

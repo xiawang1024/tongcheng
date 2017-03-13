@@ -1,3 +1,29 @@
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  footer {
+    height: 110px;
+  }
+  footer a {
+    height: 110px;
+    font-size: 24px;
+    padding-top: 66px;
+    background: no-repeat center 24px;
+    background-size: 42px;
+    line-height: 40px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  footer {
+    height: 165px;
+  }
+  footer a {
+    height: 165px;
+    font-size: 36px;
+    padding-top: 99px;
+    background: no-repeat center 36px;
+    background-size: 63px;
+    line-height: 60px;
+  }
+}
 body {
   width: 10rem;
   background: #f5f5f5;
@@ -6,7 +32,6 @@ body {
 body .g-hd {
   position: relative;
   width: 10rem;
-  height: 7.638888888888889rem;
   background: #fff;
 }
 body .g-hd .u-open {

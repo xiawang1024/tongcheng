@@ -1,6 +1,31 @@
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  footer {
+    height: 110px;
+  }
+  footer a {
+    height: 110px;
+    font-size: 24px;
+    padding-top: 66px;
+    background: no-repeat center 24px;
+    background-size: 42px;
+    line-height: 40px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  footer {
+    height: 165px;
+  }
+  footer a {
+    height: 165px;
+    font-size: 36px;
+    padding-top: 99px;
+    background: no-repeat center 36px;
+    background-size: 63px;
+    line-height: 60px;
+  }
+}
 body .g-hd {
   width: 10rem;
-  height: 8.194444444444445rem;
 }
 body .g-hd .m-dash {
   width: 10rem;
@@ -42,8 +67,25 @@ body .g-hd .m-money .u-total {
   border-right: 1px solid #eee;
 }
 body .g-hdc {
+  position: relative;
   width: 10rem;
-  height: 6.277777777777778rem;
+  height: 6.25rem;
   margin-top: 0.277777777777778rem;
   background: #fff;
+}
+body .g-hdc .m-hdc-img {
+  width: 10rem;
+  height: 6.25rem;
+  display: block;
+}
+body .g-hdc .m-hdc-btn {
+  position: absolute;
+  top: 4.930555555555555rem;
+  left: 3.958333333333333rem;
+  display: inline-block;
+  width: 2.138888888888889rem;
+  height: 0.555555555555556rem;
+  border: 1px solid #000;
+  border-radius: 0.111111111111111rem;
+  background: none;
 }
