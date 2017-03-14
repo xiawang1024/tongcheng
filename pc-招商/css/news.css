@@ -1,0 +1,70 @@
+body .g-main {
+  margin-top: 88px;
+  overflow: hidden;
+}
+body .g-main .m-location {
+  font-size: 14px;
+}
+body .g-main .m-location a {
+  color: #999;
+}
+body .g-main .m-head {
+  margin-top: 24px;
+}
+body .g-main .m-content .new-list {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin: 10px 0 0;
+  padding-bottom: 28px;
+  padding-top: 20px;
+  border-bottom: 1px solid #eee;
+}
+body .g-main .m-content .new-list .u-img {
+  float: left;
+  width: 230px;
+  height: 160px;
+  overflow: hidden;
+}
+body .g-main .m-content .new-list .txt {
+  float: right;
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  margin-left: -230px;
+}
+body .g-main .m-content .new-list .txt .txt-h3,
+body .g-main .m-content .new-list .txt .txt-p,
+body .g-main .m-content .new-list .txt .red-quare,
+body .g-main .m-content .new-list .txt .news-time {
+  margin-left: 255px;
+  overflow: hidden;
+  line-height: 18px;
+}
+body .g-main .m-content .new-list .txt .txt-h3 {
+  margin-bottom: 16px;
+}
+body .g-main .m-content .new-list .txt .txt-h3 a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+body .g-main .m-content .new-list .txt .txt-p {
+  height: 81px;
+  overflow: hidden;
+  line-height: 2;
+  font-size: 14px;
+}
+body .g-main .m-content .new-list .txt .red-quare {
+  display: inline-block;
+  width: 24px;
+  height: 6px;
+  background: #c81623;
+  margin-bottom: 20px;
+}
+body .m-page {
+  margin-top: 70px;
+}
+body .g-ft {
+  margin-top: 110px;
+}

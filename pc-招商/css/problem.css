@@ -1,0 +1,21 @@
+.how-cont {
+  width: 100%;
+  margin-top: 20px;
+}
+.how-cont .pram {
+  margin-bottom: 30px;
+}
+.how-cont .pram .pram-h {
+  font-size: 18px;
+  font-weight: 500;
+}
+.how-cont .pram p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: "宋体";
+  line-height: 2;
+  color: #999;
+}
+body .g-ft {
+  margin-top: 100px;
+}

@@ -1,0 +1,28 @@
+body .g-main .m-article {
+  text-align: center;
+}
+body .g-main .m-article .m-title {
+  margin-top: 40px;
+}
+body .g-main .m-article .m-title .u-title {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 26px;
+}
+body .g-main .m-article .m-title .u-time {
+  font-size: 12px;
+  color: #999;
+}
+body .g-main .m-article .m-content {
+  overflow: hidden;
+  margin-top: 50px;
+  padding-bottom: 80px;
+}
+body .g-main .m-article .m-content .cont-p {
+  line-height: 2;
+  font-size: 14px;
+  text-indent: 2em;
+  text-align: left;
+  font-family: "宋体";
+  margin: 10px 0;
+}
