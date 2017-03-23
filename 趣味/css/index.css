@@ -1,0 +1,266 @@
+body {
+  background: #f5f5f5;
+  width: 10rem;
+  padding-bottom: 1.388888888888889rem;
+}
+body .g-hd {
+  position: relative;
+  width: 10rem;
+  height: 5rem;
+  background: url("../imgs/1.jpg") center center no-repeat;
+  background-size: cover;
+}
+body .g-hd .m-back {
+  position: absolute;
+  left: 0.416666666666667rem;
+  top: 0.416666666666667rem;
+  display: inline-block;
+  width: 0.291666666666667rem;
+  height: 0.555555555555556rem;
+  background: url("../imgs/left.png") center center no-repeat;
+  background-size: cover;
+}
+body .g-hd .m-t1 {
+  position: absolute;
+  top: 3.75rem;
+  left: 0.659722222222222rem;
+  width: 8.680555555555555rem;
+  font-size: 0.472222222222222rem;
+  color: #fff;
+}
+body .g-person {
+  position: relative;
+  width: 10rem;
+  height: 1.5rem;
+  background: #fff;
+  vertical-align: middle;
+}
+body .g-person .m-avatar {
+  position: absolute;
+  top: 0.277777777777778rem;
+  left: 0.416666666666667rem;
+  width: 0.916666666666667rem;
+  height: 0.916666666666667rem;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 0;
+}
+body .g-person .m-avatar img {
+  width: 0.916666666666667rem;
+  height: 0.916666666666667rem;
+}
+body .g-person .m-text {
+  position: absolute;
+  left: 1.638888888888889rem;
+  top: 0.277777777777778rem;
+}
+body .g-person .m-text .u-name {
+  font-size: 0.388888888888889rem;
+  color: #333;
+}
+body .g-person .m-text .u-sign {
+  display: block;
+  color: #999;
+  margin-top: 0.111111111111111rem;
+  font-size: 0.277777777777778rem;
+}
+body .g-person .m-love {
+  position: absolute;
+  top: 0.402777777777778rem;
+  right: 0.333333333333333rem;
+}
+body .g-person .m-love .u-btn {
+  display: inline-block;
+  width: 1.875rem;
+  height: 0.694444444444444rem;
+  border: 1px solid #ff3d6e;
+  background: none;
+  border-radius: 0.347222222222222rem;
+  font-size: 0.333333333333333rem;
+  color: #ff3d6e;
+}
+body .g-content {
+  margin-top: 0.277777777777778rem;
+  background: #fff;
+  padding: 0.625rem 0.5rem;
+  text-align: center;
+}
+body .g-content p {
+  text-align: left;
+  font-size: 0.388888888888889rem;
+  color: #333;
+  line-height: 1.7;
+}
+body .g-content .m-img1,
+body .g-content .m-img2 {
+  margin: 0.625rem 0;
+}
+body .g-content .m-img1 img,
+body .g-content .m-img2 img {
+  width: 9rem;
+  height: 5.763888888888889rem;
+  display: block;
+}
+body .g-content .m-searchall {
+  margin-top: 0.833333333333333rem;
+  width: 9rem;
+  height: 1.194444444444444rem;
+  line-height: 1.194444444444444rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.166666666666667rem;
+  text-align: left;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body .g-content .m-searchall .u-txt {
+  font-size: 0.402777777777778rem;
+  color: #666;
+  padding-left: 0.486111111111111rem;
+}
+body .g-content .m-searchall .u-btn {
+  display: inline-block;
+  width: 2.333333333333333rem;
+  height: 0.694444444444444rem;
+  border: none;
+  border-radius: 0.347222222222222rem;
+  background: -webkit-linear-gradient(#ff7c7c, #f04948);
+  font-size: 0.361111111111111rem;
+  color: #fff;
+  margin-left: 2.777777777777778rem;
+}
+body .g-share {
+  margin-top: 0.277777777777778rem;
+  background: #fff;
+  padding-bottom: 0.694444444444444rem;
+}
+body .g-share .share-title {
+  font-size: 0.361111111111111rem;
+  color: #333;
+  padding-top: 0.416666666666667rem;
+  margin-left: 0.416666666666667rem;
+}
+body .g-share .share-box {
+  margin-top: 0.666666666666667rem;
+  display: flex;
+}
+body .g-share .share-box .m-item {
+  flex: 1;
+  text-align: center;
+  font-size: 0;
+}
+body .g-share .share-box .m-item img {
+  width: 1.263888888888889rem;
+  height: 1.263888888888889rem;
+}
+body .g-share .share-box .m-item .u-txt {
+  font-size: 0.305555555555556rem;
+  color: #666;
+  display: block;
+  margin-top: 0.277777777777778rem;
+}
+body .g-comment {
+  margin-top: 0.277777777777778rem;
+  background: #fff;
+}
+body .g-comment .m-title {
+  width: 10rem;
+  height: 1.166666666666667rem;
+  line-height: 1.166666666666667rem;
+  font-size: 0.361111111111111rem;
+  color: #333;
+  padding-left: 0.416666666666667rem;
+  border-bottom: 1px solid #e5e5e5;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body .g-comment .m-list {
+  width: 10rem;
+}
+body .g-comment .m-list .u-item {
+  width: 10rem;
+  padding: 0.416666666666667rem 0.416666666666667rem;
+  border-bottom: 1px solid #e5e5e5;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body .g-comment .m-list .u-item .item-avatar {
+  vertical-align: top;
+  display: inline-block;
+}
+body .g-comment .m-list .u-item .item-avatar img {
+  display: block;
+  width: 0.861111111111111rem;
+  height: 0.861111111111111rem;
+}
+body .g-comment .m-list .u-item .item-text {
+  vertical-align: top;
+  display: inline-block;
+  width: 7.5rem;
+  margin-left: 0.277777777777778rem;
+}
+body .g-comment .m-list .u-item .item-text .u-name {
+  display: block;
+  font-size: 0.361111111111111rem;
+  color: #3e6184;
+}
+body .g-comment .m-list .u-item .item-text .u-txt {
+  display: block;
+  margin-top: 0.138888888888889rem;
+  font-size: 0.361111111111111rem;
+  color: #333;
+}
+body .g-comment .m-list .u-item .item-text .u-time {
+  display: block;
+  margin-top: 0.138888888888889rem;
+  font-size: 0.277777777777778rem;
+  color: #999;
+}
+body .g-comment .m-list .u-item .item-text .u-chat {
+  margin-top: 0.277777777777778rem;
+  padding: 0.166666666666667rem;
+  background: #eee;
+  border-radius: 0.138888888888889rem;
+}
+body .g-comment .m-list .u-item .item-text .u-chat .chat-user {
+  font-size: 0.361111111111111rem;
+  color: #3e6184;
+}
+body .g-comment .m-list .u-item .item-text .u-chat .chat-txt {
+  font-size: 0.361111111111111rem;
+  color: #333;
+}
+body .g-comment .m-list .u-item .item-text .u-chat .chat-time {
+  display: block;
+  margin-top: 0.138888888888889rem;
+  font-size: 0.277777777777778rem;
+  color: #999;
+}
+body .g-comment .m-fb {
+  background: #eee;
+  text-align: center;
+  height: 8.13888888888889rem;
+}
+body .g-comment .m-fb img {
+  margin-top: 1.805555555555556rem;
+}
+body .g-comment .m-fb .fb-txt {
+  margin-top: 0.277777777777778rem;
+  font-size: 0.333333333333333rem;
+  color: #999;
+}
+body .g-comment .m-fb .fb-btn {
+  margin-top: 0.694444444444444rem;
+  display: inline-block;
+  width: 2.944444444444445rem;
+  height: 0.972222222222222rem;
+  line-height: 0.972222222222222rem;
+  border: 1px solid #ff3d6e;
+  background: none;
+  font-size: 0.402777777777778rem;
+  color: #ff3d6e;
+  border-radius: 0.486111111111111rem;
+}
